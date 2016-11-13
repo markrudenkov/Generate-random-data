@@ -15,7 +15,7 @@ public class SaveToTxt {
             BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Wprowadz nazwe pliku i cisnij enter Enter:");
             String line = b.readLine();
-            FileWriter f = new FileWriter("E:\\V semesrtr\\Algorytmy is truktury danych\\" + line + ".txt", true);
+            FileWriter f = new FileWriter( line + ".txt", true);
             for (String number : numberArrayList) {
                 f.write(number, 0, number.length());
                 f.write(System.lineSeparator());
@@ -34,7 +34,7 @@ public class SaveToTxt {
             BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("WprowadŸ liniê tekstu zakoñczon¹ znakiem Enter:");
             String line2 = b.readLine();
-            FileWriter f = new FileWriter("E:\\V semesrtr\\Algorytmy is truktury danych\\wynik.txt", true);
+            FileWriter f = new FileWriter("E:\\Algorytmy i struktury danych\\wynik.txt", true);
             f.write(line, 0, line.length());
             f.write(System.lineSeparator());
             f.close();

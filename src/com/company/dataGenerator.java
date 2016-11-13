@@ -3,9 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by Jan Nachtigal on 10/12/2016.
- */
+
 public class dataGenerator {
 
     public ArrayList<String> generateArrayOfNumbers(int size, int numberLength) {
@@ -30,7 +28,7 @@ public class dataGenerator {
     }
 
     public int generateRandomDigit() {
-        int randomDigit = new Random().nextInt(10);
+        int randomDigit = new Random().nextInt(9);
         return randomDigit;
     }
 

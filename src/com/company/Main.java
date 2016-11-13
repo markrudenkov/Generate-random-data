@@ -7,7 +7,7 @@ public class Main {
 
         SaveToTxt write = new SaveToTxt();
 
-        write.saveArrayToTxt(new dataGenerator().generateArrayOfNumbers(1000000, 12));
+        write.saveArrayToTxt(new dataGenerator().generateArrayOfNumbers(10000, 12));
 
     }
 }
